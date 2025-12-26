@@ -6,12 +6,14 @@ HW1P1 - SOLUTIONS
 """
 
 import json
-from mytorch.nn import Identity, Sigmoid, Tanh, ReLU, GELU, Softmax
-from mytorch.nn import MSELoss, CrossEntropyLoss
-from mytorch.nn import Linear
-from mytorch.nn import BatchNorm1d
-from mytorch.optim import SGD
-from models import MLP0, MLP1, MLP4
+from mytorch.nn2 import Identity, Sigmoid, Tanh, ReLU, GELU, Softmax
+from mytorch.nn2 import MSELoss
+from mytorch.nn2 import CrossEntropyLoss
+from mytorch.nn2 import Linear
+from mytorch.nn2 import BatchNorm1d
+from mytorch.optim2 import SGD
+from models2 import MLP0, MLP1, MLP4
+#from models import  MLP4
 from hw1p1_autograder_flags import *
 
 import torch
