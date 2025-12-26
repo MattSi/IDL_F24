@@ -33,7 +33,7 @@ class Tanh:
 
     def backward(self, dLdA):
         dAdZ = 4 / (2+self.expZ*self.expZ + self.expmZ*self.expmZ)
-        dLdZ = dLdA * dAdZ# todo
+        dLdZ = dLdA * dAdZ
         return dLdZ
 
 
