@@ -1,1 +1,5 @@
 __pycache__/
+HW1/P2/content/*
+HW1/P2/wandb/*
+HW1/P2/.ipynb_checkpoints/*
+
